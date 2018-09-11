@@ -1,7 +1,8 @@
 <template>
   <div id="content-home">
     <ul v-for="(post, index) in posts" :key="index">
-      <li>{{ post.title }}</li>
+      <li>{{ post[0].title }}</li>
+      <li>{{ post[1].title }}</li>
     </ul>
   </div>  
 </template>
@@ -10,10 +11,11 @@
 import json from '~/static/posts.json'
 export default {
   data() {
-        return {
-          posts: json
-        }
-    }
+      return {
+        posts: json
+      }
+  }
+    
 }
 </script>
 
