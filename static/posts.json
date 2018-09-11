@@ -1,0 +1,18 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "author": "Nick Moore",
+            "title": "First Blog Post",
+            "description": "This is my first blog post",
+            "content": "Ea proident elit officia tempor excepteur ex ullamco aliquip sit enim anim reprehenderit nulla veniam. Anim amet minim amet voluptate aliquip. Est cillum est ut ullamco excepteur duis magna amet qui reprehenderit. Reprehenderit reprehenderit pariatur ex sint. Incididunt magna ex nostrud pariatur ipsum sit qui minim ad aliqua minim."
+        },
+        {
+            "id": "2",
+            "author": "Hannah Moore",
+            "title": "Accounting Woodworker",
+            "description": "My journie in woodworking as an accountant",
+            "content": "Nostrud consectetur irure irure ipsum anim occaecat quis est tempor id ex. Adipisicing excepteur velit irure non quis. Duis incididunt dolor commodo ullamco id adipisicing anim ut aute quis sint deserunt. Deserunt nulla mollit in aute incididunt laboris tempor non mollit. Dolore consequat quis irure duis ipsum. Est sint duis aute ad occaecat."
+        }
+    ]
+}

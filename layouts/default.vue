@@ -11,14 +11,19 @@
 
 <script>
 import Menu from '../components/Menu.vue'
+import json from '~/static/posts.json'
 export default {
+  data() {
+    return {
+      posts: json
+    }
+  },
   components: {
     Menu
   }
   
 }
 </script>
-
 
 <style>
   @import url('https://fonts.googleapis.com/css?family=Raleway|Righteous');
