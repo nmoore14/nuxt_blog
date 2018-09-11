@@ -1,7 +1,7 @@
 <template>
     <div id="nav">
         <div class="brand">
-            <h3>nuxt>Blog</h3>
+            <h3>simple>Blog</h3>
         </div>
         <div class="middle-nav">
             <Search/>
