@@ -12,16 +12,23 @@
     <div id="most-recent-container">
       <h2>Most Recent Posts</h2>
       <div class="list-container">
-        <ul id="most-recent-list" v-for="(post, index) in posts" :key="index">
-          <li>{{ post[0].title }}</li>
-        </ul>
+        <div id="most-recent-list" v-for="(post, index) in posts" v-bind:key="index">
+          <h3>{{ post[0].title }}</h3>
+          <p>{{ post[0].description }}</p>
+          <p><small>By: {{ post[0].author }}</small></p>
+        </div>
       </div>
     </div>
     <div id="most-popular-container">
       <h2>Our Popular Posts</h2>
       <div class="list-container">
         <ul id="most-popular-list" v-for="(post, index) in posts" :key="index">
-          <li>{{ post[1].title }}</li>
+          <li><h3>{{ post[1].title }}</h3>
+            <ul>
+              <li>{{ post[1].description }}</li>
+              <li>By: {{ post[1].author }}</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -112,6 +119,7 @@ export default {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     border-radius: 1rem;
+    padding: 1rem;
   }
 
 </style>
