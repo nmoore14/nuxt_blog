@@ -12,7 +12,7 @@
     <div id="most-recent-container">
       <h2>Most Recent Posts</h2>
       <div class="list-container" v-for="(post, index) in posts" v-bind:key="index">
-        <a href="/posts/:id" v-bind="id">
+        <a href="/posts" v-bind="id">
           <div id="most-recent-list" class="most-recent-post">
             <h3>{{ post[0].title }}</h3>
             <p>{{ post[0].description }}</p>
