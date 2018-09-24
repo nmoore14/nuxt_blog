@@ -34,6 +34,14 @@ export default {
         border: none;
         border-radius: 1rem;
         padding-left: .5rem;
+        background-color: #e6e6e6;
+    }
+
+    .search-input:focus {
+        border-radius: .5rem;
+        background-color: white;
+        outline: none;
+        font-weight: lighter;
     }
 
     .search-btn {
